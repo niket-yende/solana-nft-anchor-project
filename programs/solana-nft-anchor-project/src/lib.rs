@@ -3,13 +3,13 @@ use anchor_spl::{
     associated_token::AssociatedToken,
     metadata::{
         create_master_edition_v3, create_metadata_accounts_v3, CreateMasterEditionV3,
-        CreateMetadataAccountsV3, Metadata,
-    }, // new
+        CreateMetadataAccountsV3, Metadata, 
+    }, 
     token::{mint_to, Mint, MintTo, Token, TokenAccount},
 };
 use mpl_token_metadata::{
     pda::{find_master_edition_account, find_metadata_account},
-    state::DataV2 // new
+    state::DataV2,
 };
 
 declare_id!("2STkCaRwFSPpCjmoV212Rn4xR5QBbMeWRyCvPVBKWq9Y");
@@ -20,8 +20,8 @@ pub mod solana_nft_anchor_project {
 
     pub fn init_nft(
         ctx: Context<InitNFT>,
-        name: String,
-        symbol: String,
+        name: String,  
+        symbol: String, 
         uri: String,
     ) -> Result<()> {
         // create mint account
@@ -109,7 +109,7 @@ pub struct InitNFT<'info> {
         mut,
         address=find_metadata_account(&mint.key()).0,
     )]
-    pub metadata_account: AccountInfo<'info>,
+    pub metadata_account: AccountInfo<'info>, 
     /// CHECK: address
     #[account(
         mut,
