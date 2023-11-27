@@ -9,14 +9,14 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@coral-xyz/anchor@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@coral-xyz/anchor/-/anchor-0.29.0.tgz#bd0be95bedfb30a381c3e676e5926124c310ff12"
-  integrity sha512-eny6QNG0WOwqV0zQ7cs/b1tIuzZGmP7U7EcH+ogt4Gdbl8HDmIYVMh/9aTmYZPaFWjtUaI8qSn73uYEXWfATdA==
+"@coral-xyz/anchor@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@coral-xyz/anchor/-/anchor-0.28.0.tgz#8345c3c9186a91f095f704d7b90cd256f7e8b2dc"
+  integrity sha512-kQ02Hv2ZqxtWP30WN1d4xxT4QqlOXYDxmEd3k/bbneqhV3X5QMO4LAtoUFs7otxyivOgoqam5Il5qx81FuI4vw==
   dependencies:
-    "@coral-xyz/borsh" "^0.29.0"
-    "@noble/hashes" "^1.3.1"
+    "@coral-xyz/borsh" "^0.28.0"
     "@solana/web3.js" "^1.68.0"
+    base64-js "^1.5.1"
     bn.js "^5.1.2"
     bs58 "^4.0.1"
     buffer-layout "^1.2.2"
@@ -24,20 +24,21 @@
     cross-fetch "^3.1.5"
     crypto-hash "^1.3.0"
     eventemitter3 "^4.0.7"
+    js-sha256 "^0.9.0"
     pako "^2.0.3"
     snake-case "^3.0.4"
     superstruct "^0.15.4"
     toml "^3.0.0"
 
-"@coral-xyz/borsh@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@coral-xyz/borsh/-/borsh-0.29.0.tgz#79f7045df2ef66da8006d47f5399c7190363e71f"
-  integrity sha512-s7VFVa3a0oqpkuRloWVPdCK7hMbAMY270geZOGfCnaqexrP5dTIpbEHL33req6IYPPJ0hYa71cdvJ1h6V55/oQ==
+"@coral-xyz/borsh@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@coral-xyz/borsh/-/borsh-0.28.0.tgz#fa368a2f2475bbf6f828f4657f40a52102e02b6d"
+  integrity sha512-/u1VTzw7XooK7rqeD7JLUSwOyRSesPUk0U37BV9zK0axJc1q0nRbKFGFLYCQ16OtdOJTTwGfGp11Lx9B45bRCQ==
   dependencies:
     bn.js "^5.1.2"
     buffer-layout "^1.2.0"
 
-"@metaplex-foundation/mpl-token-metadata@^3.1.1":
+"@metaplex-foundation/mpl-token-metadata@^3.1.0":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/mpl-token-metadata/-/mpl-token-metadata-3.1.1.tgz#bdc73bda746e268b2c68e5872691941e227f1d1f"
   integrity sha512-jhS/M9jCcHRWj37mxkI/cwRS50o2K1HT49gKVxHrlVb9hjGAbB4apXA3MuTJ/x73UuqUX59v76QPL+stVQynpw==
@@ -49,7 +50,7 @@
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/mpl-toolbox/-/mpl-toolbox-0.9.1.tgz#a4dfcf61fbfc2a02dec49437aa3102c79f3281bd"
   integrity sha512-Jm98H997MrDfKItjA8bxfsQa+ijVVR6YmMapSd0l75+nKo6Ca0eve/tv2z4qudMS2A4HbH6NLKSW3JHkutzvkQ==
 
-"@metaplex-foundation/umi-bundle-defaults@^0.8.10":
+"@metaplex-foundation/umi-bundle-defaults@^0.8.9":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-bundle-defaults/-/umi-bundle-defaults-0.8.10.tgz#f4bdf252f784ca590d208f684dc0a5839901a8ef"
   integrity sha512-eqt5uJlDb6SNV0qB7BiTWbRAk1Mnl22ve3qHRxalqvDGQ2bklEY6RzBZWC+R/eQnJ+pVsp7Dd34bhxY3I+Ht7g==
@@ -147,7 +148,7 @@
     "@metaplex-foundation/umi-serializers-encodings" "^0.8.9"
     "@metaplex-foundation/umi-serializers-numbers" "^0.8.9"
 
-"@metaplex-foundation/umi-signer-wallet-adapters@^0.8.10":
+"@metaplex-foundation/umi-signer-wallet-adapters@^0.8.9":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-signer-wallet-adapters/-/umi-signer-wallet-adapters-0.8.10.tgz#ee44bf953b6368f2cc3ec3ecacfd6bcbbfd62835"
   integrity sha512-98An78g1nUsvT6TwtDDJzc31my3qzNNf2fyK0lJLNZHuX4lYKVvWAPBCDwyxuXXNLW47qjQcbFhkoFMhYbBWrA==
@@ -168,7 +169,7 @@
   dependencies:
     buffer "^6.0.3"
 
-"@metaplex-foundation/umi@^0.8.10":
+"@metaplex-foundation/umi@^0.8.9":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi/-/umi-0.8.10.tgz#967b0c72eba3b941bafebf2bbb72eacc82cd83f3"
   integrity sha512-iGuGIfJh2+YFvUIkZ0nB/69EsQcaoq89DDPRPYvPBtOunfv8TH8SNrwcsXHlp9aBtn5FGKCPx3V3X/eurB32Fg==
@@ -206,7 +207,7 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/spl-token@^0.3.9":
+"@solana/spl-token@^0.3.8":
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/@solana/spl-token/-/spl-token-0.3.9.tgz#477e703c3638ffb17dd29b82a203c21c3e465851"
   integrity sha512-1EXHxKICMnab35MvvY/5DBc/K/uQAOJCYnDZXw83McCAYUAfi+rwq6qfd6MmITmSTEhcfBcl/zYxmW/OSN0RmA==
@@ -356,7 +357,7 @@ base-x@^3.0.2:
   dependencies:
     safe-buffer "^5.0.1"
 
-base64-js@^1.3.1:
+base64-js@^1.3.1, base64-js@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
@@ -796,6 +797,11 @@ jayson@^4.1.0:
     json-stringify-safe "^5.0.1"
     uuid "^8.3.2"
     ws "^7.4.5"
+
+js-sha256@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
+  integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
 
 js-yaml@4.1.0:
   version "4.1.0"
