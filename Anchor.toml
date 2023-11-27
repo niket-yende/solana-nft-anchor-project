@@ -1,17 +1,14 @@
-[toolchain]
-
 [features]
 seeds = false
 skip-lint = false
-
 [programs.devnet]
-solana_nft_anchor_project = "2STkCaRwFSPpCjmoV212Rn4xR5QBbMeWRyCvPVBKWq9Y"
+solana_nft_anchor_project = "7MAAvN5SsG52Veqg2dNXa7cuUKEXKj96bwzNSjTswKTw"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "Devnet"
 wallet = "/home/solana/.config/solana/id.json"
 
 [scripts]

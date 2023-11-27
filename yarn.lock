@@ -37,7 +37,7 @@
     bn.js "^5.1.2"
     buffer-layout "^1.2.0"
 
-"@metaplex-foundation/mpl-token-metadata@^3.1.0":
+"@metaplex-foundation/mpl-token-metadata@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/mpl-token-metadata/-/mpl-token-metadata-3.1.1.tgz#bdc73bda746e268b2c68e5872691941e227f1d1f"
   integrity sha512-jhS/M9jCcHRWj37mxkI/cwRS50o2K1HT49gKVxHrlVb9hjGAbB4apXA3MuTJ/x73UuqUX59v76QPL+stVQynpw==
@@ -49,7 +49,7 @@
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/mpl-toolbox/-/mpl-toolbox-0.9.1.tgz#a4dfcf61fbfc2a02dec49437aa3102c79f3281bd"
   integrity sha512-Jm98H997MrDfKItjA8bxfsQa+ijVVR6YmMapSd0l75+nKo6Ca0eve/tv2z4qudMS2A4HbH6NLKSW3JHkutzvkQ==
 
-"@metaplex-foundation/umi-bundle-defaults@^0.8.9":
+"@metaplex-foundation/umi-bundle-defaults@^0.8.10":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-bundle-defaults/-/umi-bundle-defaults-0.8.10.tgz#f4bdf252f784ca590d208f684dc0a5839901a8ef"
   integrity sha512-eqt5uJlDb6SNV0qB7BiTWbRAk1Mnl22ve3qHRxalqvDGQ2bklEY6RzBZWC+R/eQnJ+pVsp7Dd34bhxY3I+Ht7g==
@@ -147,7 +147,7 @@
     "@metaplex-foundation/umi-serializers-encodings" "^0.8.9"
     "@metaplex-foundation/umi-serializers-numbers" "^0.8.9"
 
-"@metaplex-foundation/umi-signer-wallet-adapters@^0.8.9":
+"@metaplex-foundation/umi-signer-wallet-adapters@^0.8.10":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-signer-wallet-adapters/-/umi-signer-wallet-adapters-0.8.10.tgz#ee44bf953b6368f2cc3ec3ecacfd6bcbbfd62835"
   integrity sha512-98An78g1nUsvT6TwtDDJzc31my3qzNNf2fyK0lJLNZHuX4lYKVvWAPBCDwyxuXXNLW47qjQcbFhkoFMhYbBWrA==
@@ -168,7 +168,7 @@
   dependencies:
     buffer "^6.0.3"
 
-"@metaplex-foundation/umi@^0.8.9":
+"@metaplex-foundation/umi@^0.8.10":
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi/-/umi-0.8.10.tgz#967b0c72eba3b941bafebf2bbb72eacc82cd83f3"
   integrity sha512-iGuGIfJh2+YFvUIkZ0nB/69EsQcaoq89DDPRPYvPBtOunfv8TH8SNrwcsXHlp9aBtn5FGKCPx3V3X/eurB32Fg==
@@ -206,7 +206,7 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/spl-token@^0.3.8":
+"@solana/spl-token@^0.3.9":
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/@solana/spl-token/-/spl-token-0.3.9.tgz#477e703c3638ffb17dd29b82a203c21c3e465851"
   integrity sha512-1EXHxKICMnab35MvvY/5DBc/K/uQAOJCYnDZXw83McCAYUAfi+rwq6qfd6MmITmSTEhcfBcl/zYxmW/OSN0RmA==
